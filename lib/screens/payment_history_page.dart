@@ -43,7 +43,7 @@ class _PaymentHistoryPageState extends State<PaymentHistoryPage> {
             'Payment History',
             style: TextStyle(color: Colors.black),
           ),
-          brightness: Brightness.light,
+          // brightness: Brightness.light,
         ),
         body: SafeArea(
           child: LayoutBuilder(
@@ -124,8 +124,7 @@ class _PaymentHistoryPageState extends State<PaymentHistoryPage> {
                                                       .map((user) => Column(
                                                             children: <Widget>[
                                                               Row(
-                                                                children: <
-                                                                    Widget>[
+                                                                children: <Widget>[
                                                                   Padding(
                                                                     padding: const EdgeInsets
                                                                             .only(
@@ -144,8 +143,7 @@ class _PaymentHistoryPageState extends State<PaymentHistoryPage> {
                                                                     crossAxisAlignment:
                                                                         CrossAxisAlignment
                                                                             .start,
-                                                                    children: <
-                                                                        Widget>[
+                                                                    children: <Widget>[
                                                                       Padding(
                                                                         padding:
                                                                             const EdgeInsets.only(top: 16.0),
@@ -176,15 +174,13 @@ class _PaymentHistoryPageState extends State<PaymentHistoryPage> {
                                                                   ),
                                                                   Spacer(),
                                                                   Column(
-                                                                    children: <
-                                                                        Widget>[
+                                                                    children: <Widget>[
                                                                       Row(
                                                                         mainAxisSize:
                                                                             MainAxisSize.min,
                                                                         crossAxisAlignment:
                                                                             CrossAxisAlignment.start,
-                                                                        children: <
-                                                                            Widget>[
+                                                                        children: <Widget>[
                                                                           Text(
                                                                             '\$ ',
                                                                             style:

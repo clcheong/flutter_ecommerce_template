@@ -16,7 +16,7 @@ class ReceivePaymentPage extends StatelessWidget {
         iconTheme: IconThemeData(
           color: Colors.black,
         ),
-        brightness: Brightness.light,
+        // brightness: Brightness.light,
         backgroundColor: Colors.transparent,
         title: Text(
           'Receive Payment',
@@ -106,8 +106,7 @@ class ReceivePaymentPage extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 Text('Retry Again with new',
-                    style: TextStyle(
-                        color:Colors.white)),
+                    style: TextStyle(color: Colors.white)),
                 SizedBox(
                   width: 8.0,
                 ),
@@ -116,7 +115,7 @@ class ReceivePaymentPage extends StatelessWidget {
                     child: Text(
                       'QR code',
                       style: TextStyle(
-                        color:Colors.white,
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                           decoration: TextDecoration.underline),
                     ))

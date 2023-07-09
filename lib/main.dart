@@ -1,8 +1,5 @@
-
 import 'package:ecommerce_int2/screens/splash_page.dart';
 import 'package:flutter/material.dart';
-
-
 
 void main() => runApp(MyApp());
 
@@ -14,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'eCommerce int2',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.light,
+        // brightness: Brightness.light,
         canvasColor: Colors.transparent,
         primarySwatch: Colors.blue,
         fontFamily: "Montserrat",
